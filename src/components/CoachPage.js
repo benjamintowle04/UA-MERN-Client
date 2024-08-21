@@ -45,7 +45,7 @@ const CoachPage = () => {
 
             console.log("In Load Coach", coachId);
 
-            fetch(`http://localhost:8081/coach/${coachId}`)
+            fetch(`https://universal-athletics-ad6cc5ea5023.herokuapp.com/coach/${coachId}`)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);

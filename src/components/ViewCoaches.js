@@ -32,7 +32,7 @@ const ViewCoaches = () => {
 
     useEffect(() => {
         const loadAllCoaches = async (sport) => {
-            const response = await axios.get("http://localhost:8081/listCoaches");
+            const response = await axios.get("https://universal-athletics-ad6cc5ea5023.herokuapp.com/listCoaches");
             setCoaches(response.data);
         };
         loadAllCoaches();
