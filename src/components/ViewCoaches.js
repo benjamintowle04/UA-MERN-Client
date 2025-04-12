@@ -1,16 +1,22 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import maxPicture from "../images/maxPicture.jpg";
-import benPicture from "../images/benPicture.jpg";
-import elliePicture from "../images/elliePicture.jpg"
-import jessePicture from "../images/jessePicture.png"
-import anthonyPicture from "../images/anthonyPicture.png"
-import tysonPicture from "../images/tysonPicture.jpg"
-import rexPicture from "../images/rexPicture.jpg"
-import natePicture from "../images/natePicture.jpg"
-import ryanPicture from "../images/ryanPicture.jpg"
-
+import maxPicture from "../images/profiles/max_robinson_profile.jpg";
+import elliePicture from "../images/profiles/ellie_robinson_profile.jpg";
+import jessePicture from "../images/profiles/jesse_pladsen_profile.png";
+import anthonyPicture from "../images/profiles/anthony_potratz_profile.png";
+import tysonPicture from "../images/profiles/tyson_luu_profile.jpg";
+import bellaPicture from "../images/profiles/bella_tranquilano_profile.jpg";
+import natePicture from "../images/profiles/nate_birhane_profile.jpg";
+import benPicture from "../images/profiles/ben_towle_profile.jpg";
+import cadenPicture from "../images/profiles/caden_heck_profile.jpg";
+import ryanPicture from "../images/profiles/ryan_pangier_profile.jpg";
+import mekhiPicture from "../images/profiles/mekhi_holmes_profile.jpg";
+import gavinPicture from "../images/profiles/gavin_hegstrom_profile.jpg";
+import aliviaPicture from "../images/profiles/alivia_eaton_profile.jpg";
+import zachPicture from "../images/profiles/zach_benge_profile.jpg";
+import cjPicture from "../images/profiles/cj_hangartner_profile.jpg";
+import blanePicture from "../images/profiles/blane_wallace_profile.jpg";
 
 
 const ViewCoaches = () => {
@@ -25,9 +31,16 @@ const ViewCoaches = () => {
         "jesse-pladsen": jessePicture,
         "anthony-potratz": anthonyPicture,
         "tyson-luu": tysonPicture,
-        "rex-perley": rexPicture, 
         "nate-birhane": natePicture,
-        "ryan-pangier": ryanPicture
+        "ryan-pangier": ryanPicture, 
+        "bella-tranquilano": bellaPicture,
+        "gavin-hegstrom" : gavinPicture,
+        "caden-heck": cadenPicture,
+        "alivia-eaton": aliviaPicture,
+        "zach-benge": zachPicture,
+        "cj-hangartner": cjPicture,
+        "mekhi-holmes": mekhiPicture,
+        "blane-wallace": blanePicture,
     };
 
     useEffect(() => {

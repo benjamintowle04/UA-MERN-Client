@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+
 import bentowle1 from "../images/ben_towle_cs_1.jpg"
 import bentowle2 from "../images/ben_towle_cs_2.jpg"
 import maxrobinson1 from '../images/max_robinson_cs_1.jpg'
@@ -15,10 +16,23 @@ import ryanpangier1 from '../images/ryan_pangier_cs_1.jpg'
 import ryanpangier2 from '../images/ryan_pangier_cs_2.jpg'
 import natebirhane1 from '../images/nate_birhane_cs_1.jpg'
 import natebirhane2 from '../images/nate_birhane_cs_2.jpg'
-import rexperley1 from '../images/rex_perley_cs_1.jpg'
-import rexperley2 from '../images/rex_perley_cs_2.jpg'
 import tysonluu1 from '../images/tyson_luu_cs_1.jpg'
 import tysonluu2 from '../images/tyson_luu_cs_2.jpg'
+import bellatranquilano1 from '../images/bella_tranquilano_cs_1.jpg'
+import bellatranquilano2 from '../images/bella_tranquilano_cs_2.jpg'
+import cadenheck1 from '../images/caden_heck_cs_1.jpg'
+import cadenheck2 from '../images/caden_heck_cs_2.jpg'
+import gavinhegstrom1 from '../images/gavin_hegstrom_cs_1.jpg'
+import gavinhegstrom2 from '../images/gavin_hegstrom_cs_2.jpg'
+import aliviaeaton1 from '../images/alivia_eaton_cs_1.jpg'
+import aliviaeaton2 from '../images/alivia_eaton_cs_2.jpg'
+import zachbenge1 from '../images/zach_benge_cs_1.jpg'
+import zachbenge2 from '../images/zach_benge_cs_2.jpg'
+import mekhiholmes1 from '../images/mekhi_holmes_cs_1.jpg'
+import mekhiholmes2 from '../images/mekhi_holmes_cs_2.jpg'
+import cjhangartner1 from '../images/cj_hangartner_cs_1.jpg'
+import cjhangartner2 from '../images/cj_hangartner_cs_2.jpg'
+
 
 
 const CoachPage = () => {
@@ -61,51 +75,90 @@ const CoachPage = () => {
                     console.log(data.coachName)
 
                     // Determine the coach image
-                    if (coachId == "ben-towle") {
+                    if (coachId === "ben-towle") {
                         console.log("In Ben Towle")
                         setCoachImage1(bentowle1)
                         setCoachImage2(bentowle2)
                     }
-                    else if (coachId == "max-robinson") {
+                    else if (coachId === "max-robinson") {
                         console.log("In Max Robinson")
                         setCoachImage1(maxrobinson1)
                         setCoachImage2(maxrobinson2)
                     }
-                    else if (coachId == "ellie-robinson") {
+                    else if (coachId === "ellie-robinson") {
                         console.log("In Ellie Robinson")
                         setCoachImage1(ellierobinson1)
                         setCoachImage2(ellierobinson2)
                     }
-                    else if (coachId == "jesse-pladsen") {
+                    else if (coachId === "jesse-pladsen") {
                         console.log("In Jesse Pladsen")
                         setCoachImage1(jessepladsen1)
                         setCoachImage2(jessepladsen2)
                     }
-                    else if (coachId == "anthony-potratz") {
+                    else if (coachId === "anthony-potratz") {
                         console.log("In Anthony Potratz")
                         setCoachImage1(anthonypotratz1)
                         setCoachImage2(anthonypotratz2)
                     }
-                    else if (coachId == "ryan-pangier") {
+                    else if (coachId === "ryan-pangier") {
                         console.log("In Ryan Pangier")
                         setCoachImage1(ryanpangier1)
                         setCoachImage2(ryanpangier2)
                     }
-                    else if (coachId == "nate-birhane") {
+                    else if (coachId === "nate-birhane") {
                         console.log("In Nate Birhane")
                         setCoachImage1(natebirhane1)
                         setCoachImage2(natebirhane2)
                     }
-                    else if (coachId == "rex-perley") {
-                        console.log("In Rex Perley")
-                        setCoachImage1(rexperley1)
-                        setCoachImage2(rexperley2)
-                    }
-                    else if (coachId == "tyson-luu") {
+                    
+                    else if (coachId === "tyson-luu") {
                         console.log("In Tyson Luu")
                         setCoachImage1(tysonluu1)
                         setCoachImage2(tysonluu2)
                     }
+
+                    else if (coachId === "bella-tranquilano") {
+                        console.log("In Bella Tranquilano")
+                        setCoachImage1(bellatranquilano1)
+                        setCoachImage2(bellatranquilano2)
+                    }
+
+                    else if (coachId === "caden-heck") {
+                        console.log("In Caden Heck")
+                        setCoachImage1(cadenheck1)
+                        setCoachImage2(cadenheck2)
+                    }
+
+                    else if (coachId === "gavin-hegstrom") {
+                        console.log("In Gavin Hegstrom")
+                        setCoachImage1(gavinhegstrom1)
+                        setCoachImage2(gavinhegstrom2)
+                    }
+
+                    else if (coachId === "zach-benge") {
+                        console.log("In Zach Benge")
+                        setCoachImage1(zachbenge1)
+                        setCoachImage2(zachbenge2)
+                    }
+
+                    else if (coachId === "alivia-eaton") {
+                        console.log("In Alivia Eaton")
+                        setCoachImage1(aliviaeaton1)
+                        setCoachImage2(aliviaeaton2)
+                    }
+
+                    else if (coachId === "mekhi-holmes") {
+                        console.log("In Mekhi Holmes")
+                        setCoachImage1(mekhiholmes1)
+                        setCoachImage2(mekhiholmes2)
+                    }
+
+                    else if (coachId === "cj-hangartner") {
+                        console.log("In CJ Hangartner")
+                        setCoachImage1(cjhangartner1)
+                        setCoachImage2(cjhangartner2)
+                    }
+
                     else {
                         console.log("Error Finding Images for Coach")
                     }

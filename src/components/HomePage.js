@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 
 
+//General Home Page Pictures
 import advanced from "../images/advancedAthleticsHome.png";
 import advanced1 from "../images/advancedAthleticsHome1.png";
 import advanced2 from "../images/advancedAthleticsHome2.png";
@@ -16,12 +17,21 @@ import active from "../images/activeAthleticsHome.png";
 import active1 from "../images/activeAthleticsHome1.png";
 import active2 from "../images/activeAthleticsHome2.png";
 import active3 from "../images/activeAthleticsHome3.png";
-import maxPicture from "../images/maxPicture.jpg";
-import elliePicture from "../images/elliePicture.jpg"
-import benPicture from "../images/benPicture.jpg"
-import jessePicture from "../images/jessePicture.png"
-import anthonyPicture from "../images/anthonyPicture.png"
-import tysonPicture from "../images/tysonPicture.jpg"
+
+
+
+//Profile Pictures
+import maxPicture from "../images/profiles/max_robinson_profile.jpg";
+import elliePicture from "../images/profiles/ellie_robinson_profile.jpg";
+import jessePicture from "../images/profiles/jesse_pladsen_profile.png";
+import anthonyPicture from "../images/profiles/anthony_potratz_profile.png";
+import tysonPicture from "../images/profiles/tyson_luu_profile.jpg";
+import benPicture from "../images/profiles/ben_towle_profile.jpg";
+
+
+
+
+
 import missionStatement from "../images/missionStatement.png";
 
 const HomePage = () => {
