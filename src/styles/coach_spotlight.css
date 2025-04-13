@@ -29,6 +29,51 @@ body {
 }
 
 
+/* Responsive styles for tablets and smaller devices */
+@media (max-width: 768px) {
+  .carousel-caption {
+      font-size: 1rem;
+      margin-bottom: 20px;
+  }
+
+  .featurette-heading {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+  }
+
+  .col {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+  }
+
+  .svg-col-left,
+  .svg-col-right {
+      margin: 0 auto;
+      width: 100%;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .carousel-caption {
+      font-size: 0.9rem;
+  }
+
+  .featurette-heading {
+      font-size: 1.2rem;
+  }
+
+  .svg-col-left,
+  .svg-col-right {
+      width: 100%;
+      height: auto;
+  }
+
+  .contact-container {
+      margin: 10px;
+  }
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 

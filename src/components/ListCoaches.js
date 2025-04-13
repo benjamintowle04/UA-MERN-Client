@@ -40,6 +40,7 @@ const ListCoaches = () => {
         "zach-benge": zachPicture,
         "cj-hangartner": cjPicture,
         "mekhi-holmes": mekhiPicture,
+        "blane-wallace": blanePicture,
     };
 
     useEffect(() => {
@@ -79,32 +80,6 @@ const ListCoaches = () => {
             <div className="container-coach-heading">
                 <h2 className="display-2 coach-list-header" id="coach-name">Find the Coach For You!</h2>
                 <hr className="featurette-divider" />
-            </div>
-            <div className="container">
-                <div className="container">
-                    <h5 className="d-flex justify-content-center">Select the sport you are interested in</h5>
-                </div>
-                {callingPage.callingPage == "AdvancedAthletics" &&
-                    <div className="row filter-buttons">
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <button onClick={() => loadCoachesForSport('Football')} className="btn btn-secondary">Football</button>
-                        </div>
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <button onClick={() => loadCoachesForSport('Basketball')} className="btn btn-secondary">Basketball</button>
-                        </div>
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <button onClick={() => loadCoachesForSport('Baseball')} className="btn btn-secondary">Baseball</button>
-                        </div>
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <button onClick={() => loadCoachesForSport('Soccer')} className="btn btn-secondary">Soccer</button>
-                        </div>
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <button onClick={() => loadCoachesForSport('Volleyball')} className="btn btn-secondary">Volleyball</button>
-                        </div>
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <button onClick={() => loadCoachesForSport('Track')} className="btn btn-secondary">Track</button>
-                        </div>
-                    </div>}
             </div>
 
             <hr className="featurette-divider" />

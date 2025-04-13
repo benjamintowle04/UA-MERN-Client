@@ -88,6 +88,58 @@ body {
     }
 }
 
+/* Responsive styles for tablets and smaller devices */
+@media (max-width: 768px) {
+    .image-col {
+        height: auto;
+        padding: 10px;
+    }
+
+    .btn {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .list-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .list-item h4,
+    .list-item p,
+    .list-item a {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+    .image-col img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .list-item {
+        padding: 10px;
+    }
+
+    .list-item h4 {
+        font-size: 1rem;
+    }
+
+    .list-item p {
+        font-size: 0.9rem;
+    }
+}
+
+
 @font-face {
     font-family: 'Gagalin';
     src: url('../fonts/Gagalin-Regular.otf') format('opentype');
