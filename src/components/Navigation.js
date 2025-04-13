@@ -34,7 +34,6 @@ const Navigation = ({onSelectTab}) => {
                         <a onClick={() => selectTab("advanced") } className="nav-text">Advanced Athletics</a>
                         <a onClick={() => selectTab("accessible")} className="nav-text">Accessible Athletics</a>
                         <a onClick={() => selectTab("active")} className="nav-text">Active Athletics</a>
-                        <QRCodePopup />
                     </Nav>
                     <Nav className="navbar-right">
                         <a onClick={() => selectTab("get-involved")} className="nav-text">Get Involved</a>
