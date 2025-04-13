@@ -109,6 +109,18 @@ body {
   .bottom-right {
     font-size: 0.8rem;
   }
+
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+  }
+
+  .col-lg-4 {
+    text-align: center; /* Center the content inside the column */
+    margin-bottom: 20px; /* Add spacing between rows */
+  }
 }
 
 /* Styles for mobile devices */
@@ -146,6 +158,22 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .rounded-circle {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+  }
+
+  .col-lg-4 {
+    text-align: center; /* Center the content inside the column */
+    margin-bottom: 15px; /* Add spacing between rows */
+  }
+
+  .coach-spotlight-description {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
   }
 }
 
