@@ -287,7 +287,7 @@ const HomePage = () => {
                     <div className="col-md-7">
                         <h2 className="featurette-heading fw-normal lh-1">Our Mission</h2>
                         <p className="lead">
-                            At Universal Athletics, our mission is to create an inclusive environment and build a community where every person can thrive and excel in sports. We are dedicated to coaching, guiding, and helping kids develop their athletic skills, foster teamwork, and empower one another all while reaching their full potential. Our philosophy encourages our athletes to become champions of their own lives by cultivating a love for physical activity and the resilience to thrive in all endeavors beyond. Let's make sports accessible and enjoyable for all!
+                        At Universal Athletics, our mission is to create an inclusive environment and build a community where every person can thrive and excel in sports. Our philosophy emphasizes our athletes (clients) to become champions of their own lives, by cultivating a love for physical activity and the resilience to thrive in all endeavors beyond. Let’s make sports accessible and enjoyable for all! 
                         </p>
                     </div>
                     <div className="col-md-5">
